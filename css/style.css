@@ -1,0 +1,130 @@
+body {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+#nav {
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+#nav li {
+  flex-basis: 33.3%;
+  text-align: center;
+  background-color: #b9b9b9;
+  border: 1px solid grey;
+  list-style: none;
+}
+
+#nav li.active {
+  background-color: white;
+}
+
+#main {
+  margin: 2rem auto;
+  display: flex;
+}
+
+#left {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#left h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 2rem;
+}
+
+#left a {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+#left a p {
+  padding-top: 1rem;
+  margin: 0;
+}
+
+#right {
+  flex-basis: 50%;
+}
+
+#right img {
+  width: 100%;
+  height: auto;
+  margin-left: 3rem;
+}
+
+#right button {
+  border: 1px solid grey;
+  border-radius: .5rem;
+  padding: .5rem 2rem;
+  margin-top: 1rem;
+  margin: 2rem;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  margin-left: 6rem;
+}
+
+#map {
+  display: flex;
+  margin-top: 2rem;
+}
+
+#leftMap,
+#rightMap {
+  flex-basis: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+#leftMap h2,
+#rightMap h2 {
+  background-color: skyblue;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+#leftMap h3,
+#rightMap h3 {
+  background-color: skyblue;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+#center {
+  text-align: center;
+}
+
+#center h1 {
+  padding-top: 5rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#center a p {
+  padding-top: 5rem;
+  margin: 0;
+}
+
+#hej {
+  font-weight: bold;
+}
